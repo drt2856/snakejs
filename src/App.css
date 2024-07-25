@@ -1,0 +1,26 @@
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.label {
+  
+    height: 25px;
+    border: black solid 1px;
+    display: block;
+}
+
+.wall{
+    background-color: red;
+}
+
+.grass {
+    background-color: green;
+}
+
+.snake {
+    background-color: blue;
+}
+.apple {
+    background-color: orange;
+}
+
