@@ -2,14 +2,15 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+
 .label {
-  
+
     height: 25px;
     border: black solid 1px;
     display: block;
 }
 
-.wall{
+.wall {
     background-color: red;
 }
 
@@ -20,7 +21,21 @@
 .snake {
     background-color: blue;
 }
+
+.head_snake {
+    background-color: rgba(0, 0, 255, 0.068);
+}
+
 .apple {
     background-color: orange;
 }
 
+.btn {
+    padding: 5px;
+    border-radius: 20%;
+    border: solid rgba(99, 99, 211, 0.712) 1px;
+    font-size: x-large;
+    background-color: rgb(66, 148, 219);
+    color: whitesmoke;
+    margin: 0 5px;
+}

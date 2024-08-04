@@ -1,26 +1,30 @@
 import React, { useState } from 'react';
+import { OBJECTS } from '../App.tsx';
 
-export function Label({value}) {
-    let className=whatIs()
+export function Label({ value }) {
+    let className = whatIs()
 
     function whatIs() {
-        if(value===0){
-            return"wall"
+        if (value === OBJECTS.WALL) {
+            return "wall"
         }
-        if(value===1){
-           return "snake"
+        if (value === OBJECTS.SNAKE_SECTION) {
+            return "snake"
         }
-        if(value===2){
+        if (value === OBJECTS.HEAD_SNAKE) {
+            return "head_snake"
+        }
+        if (value === OBJECTS.APPLE) {
             return "apple"
-         }
+        }
         else {
-           return "grass"
+            return "grass"
         }
     }
-    
+
     return (
-        <div className={"label "+className }>
-            {value} 
+        <div className={"label " + className}>
+            {value}
         </div>
     );
 }
