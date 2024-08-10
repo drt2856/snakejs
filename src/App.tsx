@@ -42,7 +42,7 @@ export function App() {
   }, [points])
 
 
-  //
+  ////
   function reiniciarJuego() {
     createMatrix(cant_fil, cant_col)
     setPoints(-1)
