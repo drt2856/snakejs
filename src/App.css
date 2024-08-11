@@ -1,41 +1,29 @@
-.tablero {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-}
+
 
 .label {
-
     height: 25px;
-    border: black solid 1px;
+/*    border: black solid 1px;*/
     display: block;
-}
-
-.wall {
-    background-color: red;
-}
-
-.grass {
-    background-color: green;
-}
-
-.snake {
-    background-color: blue;
-}
-
-.head_snake {
-    background-color: rgba(0, 0, 255, 0.068);
-}
-
-.apple {
-    background-color: orange;
+    margin: 0;
 }
 
 .btn {
-    padding: 5px;
-    border-radius: 20%;
+    padding: 10px;
+    border-radius: 10px;
     border: solid rgba(99, 99, 211, 0.712) 1px;
     font-size: x-large;
     background-color: rgb(66, 148, 219);
     color: whitesmoke;
     margin: 0 5px;
+}
+
+.center-in-x{
+    display: flex;
+    background-color: rgba(29, 182, 182, 0.829);
+    min-width: 500px;
+    min-height: 500px;
+    flex-direction: column;
+}
+.btn-init{
+    margin:  auto;
 }
