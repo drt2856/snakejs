@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/snakejs/static/css/main.bbe11aa0.css",
+    "main.js": "/snakejs/static/js/main.bee9d08a.js",
+    "index.html": "/snakejs/index.html",
+    "main.bbe11aa0.css.map": "/snakejs/static/css/main.bbe11aa0.css.map",
+    "main.bee9d08a.js.map": "/snakejs/static/js/main.bee9d08a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe11aa0.css",
+    "static/js/main.bee9d08a.js"
+  ]
+}
