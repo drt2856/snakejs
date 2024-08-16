@@ -1,8 +1,8 @@
 
 
 .label {
-    height: 25px;
-/*    border: black solid 1px;*/
+    width: 30px; /* Ajusta esto según el tamaño deseado */
+    height: 30px; /* Igual que el width para que sea un cuadrado */
     display: block;
     margin: 0;
 }
